@@ -5,7 +5,7 @@ describe('Implement page object model', () => {
 
     it('Register User', () => {
 
-
+        // Hello world
         loginPage.visit();
         loginPage.getRegisterLink().click();
         loginPage.register('Mayur', 'm@gmail.com', '12345');
